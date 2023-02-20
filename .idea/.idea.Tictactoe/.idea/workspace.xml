@@ -5,13 +5,25 @@
     <projectFile profileName="Tictactoe.API">Tictactoe.API/Tictactoe.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9974d3a6-696f-4d6a-b7fd-ea832caaa8d8" name="Changes" comment="" />
+    <list default="true" id="9974d3a6-696f-4d6a-b7fd-ea832caaa8d8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tictactoe/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tictactoe/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tictactoe.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tictactoe.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/App.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -62,6 +74,21 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Tictactoe.API/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="contextFolderPath" value="$PROJECT_DIR$" />
+          <option name="sourceFilePath" value="Tictactoe.API/Dockerfile" />
+        </settings>
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isPublishEnabled="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Tictactoe.API/Dockerfile" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -71,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676902736638</updated>
-      <workItem from="1676902750587" duration="750000" />
+      <workItem from="1676902750587" duration="4202000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1676902801908</created>

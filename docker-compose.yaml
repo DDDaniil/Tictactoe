@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  database:
+    image: postgres
+    container_name: 'database'
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "896523"
+      POSTGRES_DB: "tictactoe"
+    restart: always
+  client:
+    build:
+      context: Tictactoe/ui
+      dockerfile: Dockerfile
+    volumes:
+      - ./app/src:/app/src
+    ports:
+      - "3000:3000"
+  api:
+    build:
+      context: Tictactoe
+      dockerfile: Tictactoe.API/Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=database;Port=5432;Database=tictactoe;Username=postgres;Password=896523
+    ports:
+      - "5291:80"
+    restart: always
+      
+      
